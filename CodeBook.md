@@ -25,4 +25,4 @@ The run_analysis.R scripts, sharing working directory with the UCI HAR Dataset f
       Mag gets changed to _magnitude
 Those changes were made to make variables inmediately readable and understandable.
 
-6. From the generated tydi dataset, run_analysis.R creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+6. From the generated tydi dataset, run_analysis.R creates a second, independent tidy data set with the average of each variable for each activity and each subject, named Train_and_test_datasets_means.csv.
