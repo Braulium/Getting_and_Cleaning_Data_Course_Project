@@ -66,4 +66,4 @@ tydi_full_dataset_anotated_averages <- tydi_full_dataset_anotated %>%
   group_by(subject, code) %>%
   summarise_all(list(mean = mean))
 
-write.csv2(tydi_full_dataset_anotated_averages, file = "Train_and_test_datasets_means.csv")
+write.table(tydi_full_dataset_anotated_averages, file = "Train_and_test_datasets_means.txt", row.name = FALSE)
